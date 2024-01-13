@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio of Pritam Ghosh</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div id="header">
+      <div class="container">
+        <nav>
+          <img src="new logo.png" class="logo" />
+          <ul id="sidemenu">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <i class="fas fa-times" onclick="closemenu()"></i>
+          </ul>
+          <i class="fas fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+          <p>Fresher Web Developer</p>
+          <br />
+          <h1>Hi, I'm <span>Pritam</span><br />From West Bengal, India</h1>
+        </div>
+      </div>
+    </div>
+
+    <!------------About-------------->
+
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img src="new c.png" alt="" />
+          </div>
+          <div class="about-col-2">
+            <h1 class="sub-title">About Me</h1>
+            <p>
+              I am, Pritam Ghosh, a fresher Web Developer. I have a diploma in
+              electrical engineering and skilled in HTML/CSS, SCSS, JavaScript,
+              MERN Stack Developement, MySQL, Git & Github, NextJS, Redux Toolkit, Strapi
+              Headless CMS, PostgreSQL, RESTful API's.I have industry
+              knowledge and I am also interested in personal development and
+              helping others.I plan to continue my education and contribute to
+              society.
+            </p>
+            <div class="tab-titles">
+              <p class="tab-links active-link" onclick="opentab('skills')">
+                Skills
+              </p>
+              <p class="tab-links" onclick="opentab('experience')">
+                Experience
+              </p>
+              <p class="tab-links" onclick="opentab('education')">Education</p>
+            </div>
+            <div class="tab-contents active-tab" id="skills">
+              <ul>
+                <li>
+                  <span>Front-End Web Development</span><br />Designing Web
+                  Interfaces with HTML, CSS, Bootstrap, JavaScript, ReactJS.
+                </li>
+                <li>
+                  <span>MERN-Stack Web Development</span><br />Building Backend
+                  with MongoDB, Express, ReactJS, NodeJS also MySQL, REST API's.
+                </li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="experience">
+              <ul>
+                <li>
+                  <span>2022 July - 2023 July</span><br />Trainee Operator
+                  Engineer at KYB Motorcycle Suspension India Pvt. Ltd.
+                </li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="education">
+              <ul>
+                <li>
+                  <span>2022</span><br />Diploma in Electrical Enginnering from
+                  KPS Institute of Polytechnic
+                </li>
+                <li>
+                  <span>2019</span><br />10+2 with Science background from
+                  Dasghara High School
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-------------Services--------------->
+
+    <div id="services">
+      <div class="container">
+        <h1 class="sub-title">My Expertise</h1>
+        <div class="services-list">
+          <div>
+            <i class="fas fa-code"></i>
+            <h2>Front-End Development</h2>
+            <p>
+              Designing and building the interface, navigation and aesthetic of
+              websites for businesses and clients.
+            </p>
+         
+          </div>
+
+          <div>
+            <i class="fa-solid fa-crop-simple"></i>
+            <h2>MERN Development</h2>
+            <p>
+              Responsible for writing reusable, testable, and efficient code and
+              developing and designing front end web applications and in charge
+              of applying CSS methodologies and tools into creating complete
+              websites.
+            </p>
+        
+          </div>
+
+          <div>
+            <i class="fa-solid fa-laptop-code"></i>
+            <h2>Backend Developement</h2>
+            <p>
+              Creating, maintaining, testing, and debugging the entire back end
+              of an application or system. Its includes the core application
+              logic, databases, data and application integration, API, and other
+              processes taking place behind the scenes.
+            </p>
+        
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-------------------Portfolio----------------------->
+
+    <div id="portfolio">
+      <div class="container">
+        <h1 class="sub-title">My Projects</h1>
+        <div class="work-list">
+          <div class="work">
+            <img src="spotify image.jpg" />
+            <div class="layer">
+              <h3>Spotify Homepage Clone</h3>
+              <p>
+                It is a clone homepage of the popular website Spotify.I made it
+                with only HTML & CSS.
+              </p>
+              <a
+                href="https://pritam123ghosh.github.io/Spotify-Homepage---Clone-Website/"
+                target="_blank"
+                ><i class="fa-solid fa-arrow-up-right-from-square fa-shake"></i
+              ></a>
+            </div>
+          </div>
+
+          <div class="work">
+            <img src="amazon image.jpg" />
+            <div class="layer">
+              <h3>Amazon Homepage Clone</h3>
+              <p>
+                It is a clone homepage of the popular website Amazon.I made it
+                with only HTML & CSS.
+              </p>
+              <a
+                href="https://pritam123ghosh.github.io/Amazon-Homepage-Clone-Website-/"
+                target="_blank"
+                ><i class="fa-solid fa-arrow-up-right-from-square fa-shake"></i
+              ></a>
+            </div>
+          </div>
+
+          <div class="work">
+            <img src="Backend image.jpg" />
+            <div class="layer">
+              <h3>Wanderlust</h3>
+              <p>
+                Its a mainly backend Focused Project. I used NodeJS, MongoDB,
+                ExpressJS for its functionality.
+              </p>
+              <a href="https://wanderlust-tmp.onrender.com" target="_blank"
+                ><i class="fa-solid fa-arrow-up-right-from-square fa-shake"></i
+              ></a>
+            </div>
+          </div>
+
+          <div class="work">
+            <img src="shoe.jpg" class="editable" />
+            <div class="layer">
+              <h3>Shoe-Store Application (E-commerce)</h3>
+              <p>
+                It is a mainly Front-End based website. I made with trending
+                technologies like NextJS 13, Tailwind CSS, Redux.
+              </p>
+              <a
+                href="https://shoe-store-pritam-frontend.vercel.app/"
+                target="_blank"
+                ><i class="fa-solid fa-arrow-up-right-from-square fa-shake"></i
+              ></a>
+            </div>
+          </div>
+
+          <div class="work">
+            <img src="movie.jpg" class="editable" />
+            <div class="layer">
+              <h3>Movix - A Frontend Movie DB Application</h3>
+              <p>
+                Movix is the responsive movies database application made with
+                top frontend technologies such as React, Redux & SCSS.
+              </p>
+              <a href="https://movix-movie-flex.vercel.app/" target="_blank"
+                ><i class="fa-solid fa-arrow-up-right-from-square fa-shake"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+        <a
+          href="https://github.com/Pritam123Ghosh?tab=repositories"
+          target="_blank"
+          class="btn"
+          >See More Projects</a
+        >
+      </div>
+    </div>
+
+    <!-- -------------contact-------------- -->
+
+    <div id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="contact-left">
+            <h1 class="sub-title">Contact Me</h1>
+            <p>
+              <i class="fa-solid fa-paper-plane"></i>rintughosh1aa@gmail.com
+            </p>
+            <p><i class="fa-solid fa-phone"></i>8145960038</p>
+            <div class="social-icons">
+              <a
+                href="https://www.facebook.com/profile.php?id=100012923116391"
+                target="_blank"
+                ><i class="fa-brands fa-facebook fa-bounce"></i
+              ></a>
+              <a href="https://github.com/Pritam123Ghosh" target="_blank"
+                ><i class="fa-brands fa-github fa-bounce"></i
+              ></a>
+              <a
+                href="https://www.instagram.com/ig_henryofficial/"
+                target="_blank"
+                ><i class="fa-brands fa-instagram fa-bounce"></i
+              ></a>
+              <a
+                href="https://www.linkedin.com/in/pritam-ghosh-bbb4ba215/"
+                target="_blank"
+                ><i class="fa-brands fa-linkedin fa-bounce"></i
+              ></a>
+            </div>
+            <a href="" download class="btn btn2">Download CV</a>
+          </div>
+          <div class="contact-right">
+            <form name="submit-to-google-sheet">
+              <input type="text" name="Name" placeholder="Your Name" requered />
+              <input
+                type="email"
+                name="Email"
+                placeholder="Your Email"
+                requered
+              />
+              <textarea
+                name="Message"
+                rows="6"
+                placeholder="Your Message"
+              ></textarea>
+              <button type="submit" class="btn btn2">Submit</button>
+            </form>
+            <span id="msg"></span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="copyright">
+      <p>Copyright © Pritam Ghosh</p>
+    </div>
+
+    <script>
+      var tablinks = document.getElementsByClassName("tab-links");
+      var tabcontents = document.getElementsByClassName("tab-contents");
+
+      function opentab(tabname) {
+        for (tablink of tablinks) {
+          tablink.classList.remove("active-link");
+        }
+        for (tabcontent of tabcontents) {
+          tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+      }
+    </script>
+
+    <script>
+      var sidemenu = document.getElementById("sidemenu");
+
+      function openmenu() {
+        sidemenu.style.right = "0";
+      }
+
+      function closemenu() {
+        sidemenu.style.right = "-200px";
+      }
+    </script>
+    <script>
+      const scriptURL =
+        "https://script.google.com/macros/s/AKfycbwVW86jqP7UadMQTtOuw9OvEK7hI0c09v8GMDGmwkQ4lsnJAfaebpUC3aQwtlCVOHUhqA/exec";
+      const form = document.forms["submit-to-google-sheet"];
+      const msg = document.getElementById("msg");
+
+      form.addEventListener("submit", (e) => {
+        e.preventDefault();
+        fetch(scriptURL, { method: "POST", body: new FormData(form) }).then(
+          (response) => {
+            msg.innerHTML = "Message sent successfully";
+          }
+        );
+        setTimeout(function () {
+          msg.innerHTML = "";
+        }, 5000);
+        form.reset().catch((error) => console.error("Error!", error.message));
+      });
+    </script>
+  </body>
+</html>
